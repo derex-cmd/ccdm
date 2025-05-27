@@ -1,0 +1,24 @@
+CCDM Folder (Code1-6)
+1- Too much redundancy
+2- Same models are repeating over and over
+3- Code needs to be modular
+4- Dataset seems to be okay after verifying through EDA
+5- Organization needs to be done across all the files (the same code is copied across all the folders with different dataset)
+6- Training parameters needs to be manually adjusted to optimize the performance cost
+7- Client asked for validation split but since k-fold is used, we will only split the data into 80/20 split and then use the training data to perform multiple k-folds for all the models to find the best one
+
+8-(Optional, but will definitely try) We dont just want a model with lowest error but we need to factor in computational cost too. The user will have a brief txt/output explain each model's training time along with the scores
+
+9-I think the lasso code needs to be optimized (i think it isn't performing as it should but I think this will be only confirmed after testing and playing along with parameters)
+
+10- Need to play along with different crossovers to get the best possible result (in the genetic algorithm parts)
+
+11- Good to have, GPU accelerated models but only if client wants
+
+12- The output of results from each model needs structuring. 
+
+13- Client has concluded that gradient boosting is the best among all
+
+14- Documentation is must
+
+15- GA can be further improved (I think we can further reduce the error by 0.05-0.15). not sure about this one, needs to be checked
