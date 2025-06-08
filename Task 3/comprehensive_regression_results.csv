@@ -1,0 +1,25 @@
+Algorithm,MSE_mean,MSE_std,R2_mean,R2_std,MAE_mean,MAE_std,RMSE_mean,RMSE_std,CV_Folds,Data_Type,Algorithm_Type
+Base_Linear Regression,1.8417407351808968,0.24069633230425902,-0.24968652427321247,0.26069765142624024,1.1416315186637838,0.08612600745636484,1.3543048212573756,0.08717331185589285,5,Original,Base
+Base_Ridge Regression,1.836263084358928,0.24157460873974668,-0.24577882090908604,0.26015392705537743,1.1396923590093824,0.08575642628542389,1.352254680995674,0.08758060335608683,5,Original,Base
+Base_Lasso Regression,1.6833781641905916,0.18110411172441654,-0.13219541793102804,0.18771243370206078,1.0652752121070006,0.09448116402099938,1.2956255836578063,0.06879324939236915,5,Original,Base
+Base_Linear Regression_Weighted,1.6538562486161055,0.23846977776202624,-0.1161356754382501,0.2239615796494103,1.051514420638193,0.10116623916295386,1.2827463215468997,0.09175033064792328,5,Weighted,Base
+Base_Ridge Regression_Weighted,1.6374348853587022,0.24160976542224935,-0.10493846263481292,0.2245782317164463,1.045916730174,0.10104266173048784,1.2762122525077346,0.09336579624164328,5,Weighted,Base
+Base_Lasso Regression_Weighted,1.368697918178094,0.18166302898415965,0.07641565645763346,0.19330812629393104,0.9295185438487648,0.09167179357800946,1.1671038591066114,0.08103394496474345,5,Weighted,Base
+GA_Linear Regression_K3,,,,,,,,,3,Original,GA
+GA_Ridge Regression_K3,,,,,,,,,3,Original,GA
+GA_Lasso Regression_K3,,,,,,,,,3,Original,GA
+GA_Linear Regression_K5,,,,,,,,,5,Original,GA
+GA_Ridge Regression_K5,,,,,,,,,5,Original,GA
+GA_Lasso Regression_K5,,,,,,,,,5,Original,GA
+GA_Linear Regression_K7,,,,,,,,,7,Original,GA
+GA_Ridge Regression_K7,,,,,,,,,7,Original,GA
+GA_Lasso Regression_K7,,,,,,,,,7,Original,GA
+GA_Linear Regression_K3_Weighted,,,,,,,,,3,Weighted,GA
+GA_Ridge Regression_K3_Weighted,,,,,,,,,3,Weighted,GA
+GA_Lasso Regression_K3_Weighted,,,,,,,,,3,Weighted,GA
+GA_Linear Regression_K5_Weighted,,,,,,,,,5,Weighted,GA
+GA_Ridge Regression_K5_Weighted,,,,,,,,,5,Weighted,GA
+GA_Lasso Regression_K5_Weighted,,,,,,,,,5,Weighted,GA
+GA_Linear Regression_K7_Weighted,,,,,,,,,7,Weighted,GA
+GA_Ridge Regression_K7_Weighted,,,,,,,,,7,Weighted,GA
+GA_Lasso Regression_K7_Weighted,,,,,,,,,7,Weighted,GA

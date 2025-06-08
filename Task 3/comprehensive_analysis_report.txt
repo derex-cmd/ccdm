@@ -1,0 +1,45 @@
+================================================================================
+COMPREHENSIVE WEIGHTED FEATURE REGRESSION ANALYSIS REPORT
+================================================================================
+Generated on: 2025-06-08 08:54:05
+
+EXECUTIVE SUMMARY
+----------------------------------------
+• Total algorithms evaluated: 6
+• Base algorithms: 6
+• Genetic algorithm variants: 0
+• Champion model R² score: 0.0764
+• Champion algorithm: Base_Lasso Regression_Weighted
+
+TOP 10 PERFORMING MODELS
+----------------------------------------
+ 1. Base_Lasso Regression_Weighted                     R²: 0.0764 RMSE: 1.1671
+ 2. Base_Ridge Regression_Weighted                     R²:-0.1049 RMSE: 1.2762
+ 3. Base_Linear Regression_Weighted                    R²:-0.1161 RMSE: 1.2827
+ 4. Base_Lasso Regression                              R²:-0.1322 RMSE: 1.2956
+ 5. Base_Ridge Regression                              R²:-0.2458 RMSE: 1.3523
+ 6. Base_Linear Regression                             R²:-0.2497 RMSE: 1.3543
+
+ALGORITHM TYPE ANALYSIS
+----------------------------------------
+Base Algorithms:
+  Count: 6.0
+  Mean R²: -0.1287 (±0.1193)
+  Range: -0.2497 to 0.0764
+
+WEIGHTED vs ORIGINAL DATA ANALYSIS
+----------------------------------------
+• Algorithms showing improvement: 3/3 (100.0%)
+• Average improvement: 89.53%
+
+Top 5 Improvements:
+1. Base_Lasso Regression                    +157.81%
+2. Base_Ridge Regression                    +57.30%
+3. Base_Linear Regression                   +53.49%
+
+CHAMPION MODEL DETAILS
+----------------------------------------
+Algorithm: Base_Lasso Regression_Weighted
+Data Type: Weighted
+R² Score: 0.076416
+RMSE: 1.167104
