@@ -1,0 +1,10 @@
+Dataset,Model,Best Params,MSE,MAE,R2,Training Time (s)
+Calingiri,Gradient Boosting (K=3),"OrderedDict([('learning_rate', 0.015550962411003143), ('n_estimators', 65)])",0.6967343691564494,0.6769521252494581,0.567297158541666,253.36
+Calingiri,Gradient Boosting (K=7),"OrderedDict([('learning_rate', 0.01), ('n_estimators', 99)])",0.7083454603457964,0.683567390496562,0.560086157660304,362.62
+Calingiri,Decision Tree (K=7),"OrderedDict([('max_depth', 3)])",0.8419939655807476,0.718756184991479,0.4770845281557362,26.32
+Calingiri,Decision Tree (K=5),"OrderedDict([('max_depth', 3)])",0.8419939655807476,0.7187561849914789,0.4770845281557362,23.78
+Calingiri,Decision Tree (K=3),"OrderedDict([('max_depth', 3)])",0.8419939655807477,0.7187561849914791,0.4770845281557361,27.57
+Calingiri,Gradient Boosting (K=5),"OrderedDict([('learning_rate', 0.01), ('n_estimators', 50)])",1.0349783932103005,0.8277296696363486,0.3572326679789246,502.0
+Calingiri,Lasso Regression (K=7),"OrderedDict([('alpha', 0.12289334953363337)])",1.2567341716960718,0.9131409683176633,0.2195125271212659,23.09
+Calingiri,Lasso Regression (K=3),"OrderedDict([('alpha', 3.2521088005944945)])",1.6101913424193204,1.047935880234447,0.0,15.12
+Calingiri,Lasso Regression (K=5),"OrderedDict([('alpha', 3.2521088005944945)])",1.6101913424193204,1.047935880234447,0.0,17.0
