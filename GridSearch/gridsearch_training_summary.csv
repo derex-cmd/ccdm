@@ -1,0 +1,4 @@
+Dataset,Best_Model,Training_R2,Training_MSE,Training_MAE,Training_Time_s
+Calingiri,Linear Regression (K=3),1.0,1.686575500373072e-28,9.633750380066694e-15,4.16
+Lancer,Linear Regression (K=3),1.0,1.645924719009753e-28,9.850197221842356e-15,1.1
+Halberd,Linear Regression (K=3),1.0,2.3641879593436144e-28,1.1061179983156182e-14,1.06

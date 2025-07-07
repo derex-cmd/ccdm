@@ -1,0 +1,13 @@
+Dataset,Model,Best Params,MSE,MAE,R2,Training Time (s)
+Calingiri,Linear Regression (K=3),{},1.686575500373072e-28,9.633750380066694e-15,1.0,4.16
+Calingiri,Linear Regression (K=5),{},1.686575500373072e-28,9.633750380066694e-15,1.0,3.36
+Calingiri,Linear Regression (K=7),{},1.686575500373072e-28,9.633750380066694e-15,1.0,4.24
+Calingiri,Decision Tree (K=3),{'max_depth': None},0.0,0.0,1.0,5.09
+Calingiri,Decision Tree (K=7),{'max_depth': 7},0.013937309923969587,0.060559223689475784,0.9913443144570454,29.06
+Calingiri,Decision Tree (K=5),{'max_depth': 5},0.23065111698525567,0.3110416474282021,0.8567554607276044,6.37
+Calingiri,Gradient Boosting (K=3),"{'learning_rate': 0.01, 'n_estimators': 50}",1.0349783932103007,0.8277296696363486,0.3572326679789244,68.83
+Calingiri,Gradient Boosting (K=5),"{'learning_rate': 0.01, 'n_estimators': 50}",1.0349783932103007,0.8277296696363486,0.3572326679789244,81.73
+Calingiri,Gradient Boosting (K=7),"{'learning_rate': 0.01, 'n_estimators': 50}",1.0349783932103007,0.8277296696363486,0.3572326679789244,24.96
+Calingiri,Lasso Regression (K=3),{'alpha': 10.0},1.6101913424193204,1.047935880234447,0.0,1.87
+Calingiri,Lasso Regression (K=5),{'alpha': 10.0},1.6101913424193204,1.047935880234447,0.0,2.51
+Calingiri,Lasso Regression (K=7),{'alpha': 10.0},1.6101913424193204,1.047935880234447,0.0,3.94
